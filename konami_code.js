@@ -6,9 +6,8 @@ function init() {
   let body = document.body
   
   body.addEventListener('keydown', function(e) {
-    console.log(e.detail)
-    console.log(e.which)
-    console.log(e.location)
+    console.log(e.key)
+ 
     const key = parseInt(e.key)
     
     if (key === code[index]) {
