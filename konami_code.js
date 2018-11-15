@@ -5,5 +5,5 @@ function init() {
   
   let body = document.body
   
-  body.addEventListener('')
+  body.addEventListener('keyDown')
 }
