@@ -8,6 +8,7 @@ function init() {
   body.addEventListener('keydown', function(e) {
     console.log(e.detail)
     console.log(e.which)
+    console.log(e.location)
     const key = parseInt(e.detail || e.which)
     
     if (key === code[index]) {
