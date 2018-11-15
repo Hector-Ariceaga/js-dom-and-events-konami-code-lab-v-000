@@ -5,5 +5,5 @@ function init() {
   
   let body = document.body
   
-  body.
+  body.addEventListener()
 }
