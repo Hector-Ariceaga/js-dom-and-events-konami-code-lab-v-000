@@ -5,7 +5,7 @@ function init() {
   
   let body = document.body
   
-  body.addEventListener('keyDown', function(e) {
+  body.addEventListener('keydown', function(e) {
     console.log(e.detail)
     console.log(e.which)
     const key = parseInt(e.detail || e.which)
