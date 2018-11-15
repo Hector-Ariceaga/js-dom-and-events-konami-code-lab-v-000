@@ -5,5 +5,9 @@ function init() {
   
   let body = document.body
   
-  body.addEventListener('keyDown')
+  body.addEventListener('keyDown', function(e) {
+    console.log(e.detail)
+    console.log(e.which)
+    const key = e.detail || e.which
+  })
 }
