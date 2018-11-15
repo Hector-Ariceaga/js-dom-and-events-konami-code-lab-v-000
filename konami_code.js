@@ -8,6 +8,17 @@ function init() {
   body.addEventListener('keyDown', function(e) {
     console.log(e.detail)
     console.log(e.which)
-    const key = (e.detail || e.which)
+    const key = parseInt(e.detail || e.which)
+    
+    if (key === code[index]) {
+      index++;
+      
+      if (index === code.length) {
+        alert('Konami Code baby!');
+        index = 0;
+      }
+    } else {
+      index = 0;
+    }
   })
 }
