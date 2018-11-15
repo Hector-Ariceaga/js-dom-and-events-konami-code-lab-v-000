@@ -1,4 +1,4 @@
-const code = ['', 38, 40, 40, 37, 39, 37, 39, 66, 65]
+const code = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'a', 'b']
 
 function init() {
   let index = 0 
