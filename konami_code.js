@@ -8,6 +8,6 @@ function init() {
   body.addEventListener('keyDown', function(e) {
     console.log(e.detail)
     console.log(e.which)
-    const key = e.detail || e.which
+    const key = (e.detail || e.which)
   })
 }
