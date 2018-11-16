@@ -6,7 +6,7 @@ function init() {
   
   body.addEventListener('keydown', function(e) {
 
-    const key = parseInt()
+    const key = parseInt(e.which)
     
     if (key === code[index]) {
       index++;
